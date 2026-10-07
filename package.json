@@ -1,0 +1,9 @@
+{
+  "name": "safezone",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": { "dev": "next dev", "build": "next build", "start": "next start", "lint": "eslint .", "test": "vitest run" },
+  "dependencies": { "next": "^15.2.0", "react": "^19.0.0", "react-dom": "^19.0.0", "zod": "^3.24.2" },
+  "overrides": { "postcss": "$postcss" },
+  "devDependencies": { "@types/node": "^22.13.10", "@types/react": "^19.0.10", "@types/react-dom": "^19.0.4", "eslint": "^9.22.0", "eslint-config-next": "^15.2.0", "typescript": "^5.8.2", "tailwindcss": "^4.0.12", "@tailwindcss/postcss": "^4.0.12", "postcss": "^8.5.28", "vitest": "^3.2.4" }
+}
